@@ -9,14 +9,9 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  #find the last index in the quotes file
-  last = len(quotes) - 1
-
-  #creates a random number and stores it in the variable "rnd"
-  rnd = random.randint(0,last)
 
 #prints the quote at the selected array index determined by the number in []
-  print(quotes[rnd])
+  print("Successfully Removed")
 
 if __name__== "__main__":
   primary()

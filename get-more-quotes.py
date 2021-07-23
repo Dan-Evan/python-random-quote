@@ -13,10 +13,11 @@ def primary():
   last = len(quotes) - 1
 
   #creates a random number and stores it in the variable "rnd"
-  rnd = random.randint(0,last)
+  rnd1 = random.randint(0,last)
+  rnd2 = random.randint(0,last)
 
 #prints the quote at the selected array index determined by the number in []
-  print(quotes[rnd])
+  print(quotes[rnd1], quotes[rnd2])
 
 if __name__== "__main__":
   primary()
